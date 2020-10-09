@@ -1,0 +1,20 @@
+#title {
+
+}
+
+#grid {
+    border: solid 1px red;
+    margin: 0 auto;
+
+    width: 600px;
+    height: 600px;
+    display: grid;
+    
+    
+}
+
+.cell {
+    background-color: white;
+    border: solid 0.1px black;
+}
+
