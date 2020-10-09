@@ -1,20 +1,63 @@
+body, html {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    background-color: khaki;
+}
+
 #title {
 
+}
+
+button {
+    background-color: white;
+    padding: 10px;
+}
+
+#buttons {
+    width: fit-content;
+    margin: 12px auto;
+}
+
+#clearGrid {
+    background-color: yellow;
+}
+
+#resizeButton {
+    background-color: turquoise;
+}
+
+#blackWhite {
+    background-color: black;
+    color: white;
+}
+
+#whiteToBlack {
+    background-color: gray;
+}
+
+#rainbow {
+    color: black;
+    font-weight: bold;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
 }
 
 #grid {
     border: solid 1px red;
     margin: 0 auto;
 
-    width: 600px;
-    height: 600px;
+    width: 580px;
+    height: 580px;
     display: grid;
     
     
 }
 
 .cell {
-    background-color: white;
-    border: solid 0.1px black;
+    background-color: #FFFFFF;
+    border: solid 0.1px gray;
+    border-radius: 1px;
 }
 
