@@ -1,7 +1,7 @@
 // let gridSize = 16;
 // let currentFillColor = null;
 
-function generateCells(val) {
+function generateCells(val) {   
     const grid = document.querySelector("#grid");
     // makes the grid have val x val size
     grid.style.gridTemplateColumns = `repeat(${val}, auto)`;

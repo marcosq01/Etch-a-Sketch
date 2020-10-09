@@ -4,6 +4,8 @@ body, html {
 }
 
 #title {
+    margin: 0 auto;
+    width: fit-content;
 
 }
 
@@ -15,6 +17,14 @@ button {
 #buttons {
     width: fit-content;
     margin: 12px auto;
+}
+
+button:hover {
+    border: solid 2px white;
+}
+
+button:active{
+    transform: translateY(4px);
 }
 
 #clearGrid {
